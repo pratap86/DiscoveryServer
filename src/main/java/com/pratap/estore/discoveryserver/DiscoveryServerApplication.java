@@ -2,8 +2,9 @@ package com.pratap.estore.discoveryserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@Enable
+@EnableEurekaServer
 @SpringBootApplication
 public class DiscoveryServerApplication {
 
